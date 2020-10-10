@@ -14,7 +14,7 @@
     padding: 0 100px;
     display: flex;
     align-items: center;
-    background: radial-gradient(circle, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 48%);
+    background: #fff;
 }
 .banner:before 
 {
