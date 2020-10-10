@@ -100,7 +100,7 @@ header .logo
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25px;
-    filter: invert(0);
+    filter: invert(1);
 }
 .content
 {
