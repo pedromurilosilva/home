@@ -77,6 +77,10 @@ header .logo
     transition: 0.5s;
     transform-origin: right;
 }
+.banner.active header
+{
+    background: none;
+}
 .banner.active .logo
 {
     transform: scale(0);
