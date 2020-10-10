@@ -100,7 +100,7 @@ header .logo
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25px;
-    filter: invert(1);
+    filter: invert(0);
 }
 .content
 {
@@ -232,14 +232,14 @@ header .logo
     {
         top: 100px;
         left: 0;
-        width: 170px;
-        height: 310px;
+        width: 200px;
+        height: 50px;
     }
     .banner:after 
     {
-        bottom: 400px;
+        bottom: 0px;
         right: 0;
-        width: 100%;
+        width: 50px;
         height: 400px;
     }
     .content 
