@@ -92,7 +92,7 @@ header .logo
     position: relative;
     width: 30px;
     height: 30px;
-    background: url(/img/menu.png);
+    background: url(menu.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
@@ -101,7 +101,7 @@ header .logo
 }
 .toggle.active
 {
-    background: url(/img/close.png);
+    background: url(close.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25px;
