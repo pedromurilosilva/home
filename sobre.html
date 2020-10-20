@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/sobre.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Pedro Silva</a>
+            <div class="toggle" onclick="toggle();"></div>
+        </header>
+        <div class="content">
+            <div class="contentBx">
+                <h2>Sobre mim</h2>
+                <p>• Bacharel em Engenharia Civil desde 2018 pelo <br>Centro Universitário de Rio Preto - UNIRP.</p>
+                <p>• Pós graduando em Engenharia de Software pela Universidade Anhanguera.</p>
+                <p>• Conhecimentos em: AutoCad, Google SketchUp, <br>Vray, Enscape e Lumion.</p>
+                <a href="#">Início</a>
+            </div>
+            <div class="imbBx">
+                <img src="/img/pedroo.jpg">
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="/img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="/img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="/img/instagram.png" alt=""></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="/index.html">Início</a></li>
+            <li><a href="/sobre.html">Sobre mim</a></li>
+            <li><a href="/projetos.html">Projetos</a></li>
+            <li><a href="/clientes.html">Clientes</a></li>
+            <li><a href="/contato.html">Contato</a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function toggle() {
+            const toggle = document.querySelector('.toggle');
+            const banner = document.querySelector('.banner');
+            toggle.classList.toggle('active')
+            banner.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
