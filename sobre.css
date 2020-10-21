@@ -106,6 +106,7 @@ header .logo
     background-position: center;
     background-size: 25px;
     cursor: pointer;
+    filter: invert(1);
 }
 .content
 {
